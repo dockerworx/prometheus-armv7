@@ -1,4 +1,4 @@
-# A Dockerized Prometheus Image for Raspberry Pi 3
+# The Dockerworx Ready Solution for Prometheus Stack on Raspberry Pi 3
 
 Prometheus is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 
@@ -29,5 +29,5 @@ How to run this Docker Image?
 ----------------------------------------
 
 ```sh
-$ sudo docker run -d --net=host -v /prometheus.yml:/etc/prometheus/prometheus.yml  ajeetraina/prometheus-armh7
+$ sudo docker run -d --net=host -v /prometheus.yml:/etc/prometheus/prometheus.yml  dockerworx/prometheus-armh7
 ```
